@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /duan
+
+duanyuming:
+  firstname: aaa
+  lastname: aaa
+
+user: ${duanyuming.firstname} ${duanyuming.lastname}
+mysql:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/duan
+  username: dev
+  password: dev
